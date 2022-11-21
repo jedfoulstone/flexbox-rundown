@@ -1,6 +1,4 @@
 
-
-
 body{
     background-color: limegreen;
 }
@@ -21,6 +19,12 @@ h1 {
 
 }
 
+ul {
+    list-style-type: none;
+    padding: 5px;
+    
+
+}
 /* section one flex grow and shrink */
 
 .section-one {
