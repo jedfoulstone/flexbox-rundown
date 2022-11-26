@@ -20,10 +20,11 @@ h1 {
 
 ul {
     list-style-type: none;
-    padding: 5px; ;
+    padding: 5px;
+    ;
 }
 
-li{
+li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
     margin: 0px 3px;
@@ -43,6 +44,7 @@ li{
 .push {
     margin-left: auto;
 }
+
 /* section one flex grow and shrink */
 
 .section-one {
@@ -96,7 +98,12 @@ li{
 .section-three {
     background-color: lightcoral;
     height: 800px;
-
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vodnI38cNI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/SGJFWirQ3ks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 }
 
 iframe {
@@ -110,7 +117,21 @@ iframe {
 .section-four {
     background-color: darkslateblue;
     height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 
+}
+
+.title1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    
+   
 }
 
 /* section 5 media items */
@@ -120,7 +141,3 @@ iframe {
     height: 1400px;
 
 }
-
-
-
-
