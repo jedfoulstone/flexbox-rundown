@@ -197,14 +197,14 @@ footer {
     padding: 20px 0px;
     display: flex;
     justify-content: center;
-    align align-items: center;
+    align-items: center;
 }
 
 .button-top-img {
     border: 3px solid white;
     border-radius: 10px;
     box-shadow: 10px 10px 20px black;
-    width: 70px;
+    width: 70%;
 }
 
 
